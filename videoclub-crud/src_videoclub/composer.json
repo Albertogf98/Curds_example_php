@@ -1,0 +1,22 @@
+{
+    "name": "alberto/src_videoclub",
+    "require": {
+        "coffeecode/paginator": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Albertogf98",
+            "email": "alberto1998adoratrices@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.7",
+        "stefangabos/zebra_pagination": "dev-master"
+    },
+    "version": "2.2",
+    "autoload": {
+        "psr-0": {
+            "SRC\\:": "src/"
+        }
+    }
+}

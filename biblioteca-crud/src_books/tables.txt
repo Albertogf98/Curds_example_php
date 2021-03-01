@@ -1,0 +1,16 @@
+CREATE TABLE authors (
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100),
+surname VARCHAR(100),
+age VARCHAR(5)
+);
+
+CREATE TABLE books (
+id INT(11) AUTO_INCREMENT,
+title VARCHAR(100),
+description VARCHAR(100),
+pages INT(100),
+author_id INT(11),
+PRIMARY KEY(id),
+FOREIGN KEY (author_id) REFERENCES authors(id)
+);

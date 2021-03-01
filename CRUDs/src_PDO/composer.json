@@ -1,0 +1,20 @@
+{
+    "name": "alberto/cru-ds",
+    "description": "Composer with php native",
+    "authors": [
+        {
+            "name": "Albertogf98",
+            "email": "alberto1998adoratrices@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.7",
+        "stefangabos/zebra_pagination": "dev-master"
+    },
+    "version": "2.2",
+    "autoload": {
+        "psr-0": {
+            "SRC\\:":"src_PDO/"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/src_videoclub/vendor/composer" />
+      <path value="$PROJECT_DIR$/src_videoclub/vendor/stefangabos/zebra_pagination" />
+      <path value="$PROJECT_DIR$/src_videoclub/vendor/fzaninotto/faker" />
+    </include_path>
+  </component>
+</project>

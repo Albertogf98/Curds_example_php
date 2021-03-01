@@ -1,0 +1,17 @@
+===================CON FOTO Y VALOR POR DEFECTO EN FECHA===================
+CREATE TABLE articles (
+            id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            title VARCHAR(100),
+            publication_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            content TEXT NULL,
+            image BLOB NULL
+            ) ENGINE=InnoDB;
+
+
+CREATE TABLE users (
+            user_id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            name VARCHAR(30),
+            user VARCHAR(30),
+            password VARCHAR(50),
+            email VARCHAR(50)
+            ) ENGINE=InnoDB;
