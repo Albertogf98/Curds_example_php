@@ -1,0 +1,12 @@
+CREATE DATABASE EmployeesDB
+
+USE EmployeesDB
+
+CREATE TABLE employees (
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+uuid VARCHAR(255),
+deparment VARCHAR(100),
+name VARCHAR(100),
+surname VARCHAR(100),
+image BLOB
+);

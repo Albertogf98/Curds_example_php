@@ -130,7 +130,6 @@ class Ticket
         $connection = IncidentDB\Db::connection();
         $sql = "UPDATE tickets SET status='close' WHERE id= ".$id;
         $connection->exec($sql);
-
     }
 
 
