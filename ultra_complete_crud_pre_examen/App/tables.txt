@@ -1,0 +1,10 @@
+
+CREATE TABLE orders
+(
+id int(11) primary key auto_increment,
+ description TEXT,
+ status enum ("entregado", "reparto") default "reparto",
+  image Blob,
+  client_id INT(11),
+  FOREIGN KEY (client_id) REFERENCES users(id)
+  );

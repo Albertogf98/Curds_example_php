@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "files": [
+      "mylibrary/functions.php"
+    ],
+    "classmap": [
+      "classmap/functions.php"
+    ],
+
+    "psr-4": {
+      "Calculator\\": ["src/models/"]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "alberto/app",
+    "authors": [
+        {
+            "name": "Albertogf98",
+            "email": "alberto1998adoratrices@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ConfigurationDB\\": ["src/db/"],
+            "Models\\": ["src/models"]
+        }
+    }
+}
